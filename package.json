@@ -1,0 +1,18 @@
+{
+  "name": "tsdown-pnpm-workspace-debug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:lib": "pnpm -F @pkg/lib-a build",
+    "build:app": "pnpm -F @apps/my-app build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.0",
+  "devDependencies": {
+    "tsdown": "^0.18.0",
+    "typescript": "^5.9.3"
+  }
+}
