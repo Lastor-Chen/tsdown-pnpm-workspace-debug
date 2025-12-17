@@ -5,7 +5,7 @@ export default defineConfig({
   outDir: './dist',
   format: 'esm',
   fixedExtension: false,
-  unbundle: false, // expect bundle
+  unbundle: false, // expect "workspace:*" to be bundled
   noExternal: ['@pkg/lib-a'], // not work
   // noExternal: ['@pkg/lib-a/preload'], // worked
 })
